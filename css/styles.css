@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+h1 {
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+
+div#startertext {
+    color:white;
+}
+
+div#form {
+    color:white;
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,130,170,0),rgba(0,0,0,1)),
+            url('../images/dreams.png');
+    background-size: 120%;
+    text-align: center;
+}
+
+a {
+    background-color:#a34c51;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+h3 {
+    color:white
+}
